@@ -1,0 +1,39 @@
+Sean Blanchard
+2/17/2021
+Lab03
+Task 2 qanda
+1. What filter did you use for Task 2.1?
+
+http && ip.addr == 138.197.192.78
+
+2. Perform your own capture of HTTP traffic to my website.
+Make sure you use http:// and not https://.
+Isolate the relevant packets (may be more/less than 24, as long as they are relevant).
+Submit that capture as L03-my-http-capture.pcapng.
+
+Done. Capture saved in zip folder.
+
+3. How many HTTP 404 error responses are in the entire capture file? What filter will filter http response codes that equal 404?
+
+There is 1 HTTP 404 error in the capture file.
+http.response.code == 404 
+
+4. Looking at frame number 18689, is it an HTTP request or response? If it is a request, what frame number contains the response? If it is a response, what frame number contains the request?
+
+Looking at frame number 18689 it is a HTTP request. The frame number that contains the response is 18693 with ACK.
+
+
+5. Are multiple TCP connections (sockets) used for the GET requests/responses for scrivnor.cikeys.com? How can we verify that?
+
+There are multiple TCP connections used for the get request/responses. I counted a total of 6, and the way I verified that was using filters on wireshark.
+ip.addr == 138.197.192.78 && tcp.flags.syn == 1 && tcp.flags.ack == 1
+
+6. (Extra Credit) Another website was accessed via HTTP, what what was it and how did you figure it out?
+
+There were other websites that were accessed via HTTP. The websites that were accessed and captured were amazontrust.com, godaddy.com, digicert.com, lxer.com.
+I was able to grab this data by adding a filter to http.host, Then went to Statistics tab, then HTTP drop down, then Load Distribution option. From there I am able to re enter the filter http.host, and under HTTP Request by server dropdown, then HTTP Requests by HTTP Host, I am able to access the list of websites that were accessed on the wireshark capture.
+
+
+
+
+

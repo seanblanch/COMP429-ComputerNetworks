@@ -1,0 +1,657 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "85.0.2"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "85.0.2"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2021-02-17T15:17:01.527-08:00",
+        "id": "page_2",
+        "title": "Welcome to LWN.net [LWN.net]",
+        "pageTimings": {
+          "onContentLoad": 290,
+          "onLoad": 493
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:01.527-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://lwn.net/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "lwn.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 340
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 23:16:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Expires",
+              "value": "-1"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0, must-revalidate"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7842"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=5, max=100"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/html; charset=utf-8",
+            "size": 23418,
+            "text": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n        \"http://www.w3.org/TR/html4/loose.dtd\">\n        <html lang=\"en\">\n        <head><title>Welcome to LWN.net [LWN.net]</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=utf-8\">\n        <link rel=\"icon\" href=\"/images/favicon.png\" type=\"image/png\">\n        <link rel=\"alternate\" type=\"application/rss+xml\" title=\"LWN.net headlines\" href=\"https://lwn.net/headlines/newrss\">\n        <link rel=\"stylesheet\" href=\"/CSS/lwn\">\n<link rel=\"stylesheet\" href=\"/CSS/nosub\">\n<link rel=\"stylesheet\" href=\"/CSS/pure-min\">\n           <!--[if lte IE 8]>\n             <link rel=\"stylesheet\" href=\"/CSS/grids-responsive-old-ie-min\">\n           <![endif]-->\n           <!--[if gt IE 8]><!-->\n             <link rel=\"stylesheet\" href=\"/CSS/grids-responsive-min\">\n           <!--<![endif]-->\n           <link rel=\"stylesheet\" href=\"/CSS/pure-lwn\">\n           \n        \n<script type=\"text/javascript\">var p=\"http\",d=\"static\";if(document.location.protocol==\"https:\"){p+=\"s\";d=\"engine\";}var z=document.createElement(\"script\");z.type=\"text/javascript\";z.async=true;z.src=p+\"://\"+d+\".adzerk.net/ados.js\";var s=document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(z,s);</script>\n<script type=\"text/javascript\">\nvar ados_keywords = ados_keywords || [];\nif( location.protocol=='https:' ) {\n        ados_keywords.push('T:SSL');\n} else {\n        ados_keywords.push('T:HTTP');\n}\n\nvar ados = ados || {};\nados.run = ados.run || [];\nados.run.push(function() {\n\nados_add_placement(4669, 20979, \"azk13321_leaderboard\", 4).setZone(16026);\n\nados_add_placement(4669, 20979, \"azk93271_right_zone\", [5,10,6]).setZone(16027);\n\nados_add_placement(4669, 20979, \"azk31017_tracking\", 20).setZone(20995);\n\nados_keywords.push('S:Homepage');\n\nados_setKeywords(ados_keywords.join(', ')); \nados_load();\n});</script>\n\n        </head>\n        <body bgcolor=\"#ffffff\" link=\"Blue\" VLINK=\"Green\" alink=\"Green\">\n        <a name=\"t\"></a>\n<div id=\"menu\"><a href=\"/\"><img src=\"https://static.lwn.net/images/logo/barepenguin-70.png\" class=\"logo\"\n                 border=\"0\" alt=\"LWN.net Logo\">\n           <font class=\"logo\">LWN<br>.net</font>\n           <font class=\"logobl\">News from the source</font></a>\n           <a href=\"/\"><img src=\"https://static.lwn.net/images/lcorner-ss.png\" class=\"sslogo\"\n                 border=\"0\" alt=\"LWN\"></a><div class=\"navmenu-container\">\n           <ul class=\"navmenu\">\n        <li><a class=\"navmenu\" href=\"#t\"><b>Content</b></a><ul><li><a href=\"/current/\">Weekly Edition</a></li><li><a href=\"/Archives/\">Archives</a></li><li><a href=\"/Search/\">Search</a></li><li><a href=\"/Kernel/\">Kernel</a></li><li><a href=\"/Security/\">Security</a></li><li><a href=\"/Distributions/\">Distributions</a></li><li><a href=\"/Calendar/\">Events calendar</a></li><li><a href=\"/Comments/unread\">Unread comments</a></li><li><hr></li><li><a href=\"/op/FAQ.lwn\">LWN FAQ</a></li><li><a href=\"/op/AuthorGuide.lwn\">Write for us</a></li></ul></li>\n</ul></div>\n</div> <!-- menu -->\n<div class=\"pure-g not-handset\" style=\"margin-left: 10.5em\">\n           <div class=\"not-print\">\n             <div id=\"azk13321_leaderboard\"></div>\n           </div>\n           </div>\n        <div class=\"topnav-container\">\n<div class=\"not-handset\"><form action=\"https://lwn.net/Login/\" method=\"post\" name=\"loginform\"\n                 class=\"loginform\">\n        <label><b>User:</b> <input type=\"text\" name=\"Username\" value=\"\" size=\"8\" id=\"uc\" /></label> \n\t\t<label><b>Password:</b> <input type=\"password\" name=\"Password\" size=\"8\" id=\"pc\" /></label> <input type=\"hidden\" name=\"target\" value=\"\" /> <input type=\"submit\" name=\"submit\" value=\"Log in\" /></form> |\n           <form action=\"https://lwn.net/subscribe/\" method=\"post\" class=\"loginform\">\n           <input type=\"submit\" name=\"submit\" value=\"Subscribe\" />\n           </form> |\n           <form action=\"https://lwn.net/Login/newaccount\" method=\"post\" class=\"loginform\">\n           <input type=\"submit\" name=\"submit\" value=\"Register\" />\n           </form>\n        </div>\n               <div class=\"handset-only\">\n               <a href=\"/subscribe/\"><b>Subscribe</b></a> /\n               <a href=\"/Login/\"><b>Log in</b></a> /\n               <a href=\"/Login/newaccount\"><b>New account</b></a>\n               </div>\n               </div><div class=\"pure-grid maincolumn\">\n<div class=\"lwn-u-1 pure-u-md-19-24\">\n<div class=\"PageHeadline\">\n<h1>Welcome to LWN.net</h1>\n</div>\n<div class=\"ArticleText\">\n<blockquote style=\"margin-top: 0\">\n       LWN.net is a reader-supported news site dedicated to producing the best\n       coverage from within the Linux and free software development communities.\n       See <a href=\"/op/FAQ.lwn\">the LWN FAQ</a> for more information, and\n       please consider <a href=\"/subscribe/Info\">subscribing</a> to gain full\n       access and support our activities.\n       </blockquote>\n       <p>\n       <div class=\"FPBox\"><div class=\"FPLeft\">\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] What goes into default Debian?</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Distributions] Posted Feb 17, 2021 20:22 UTC (Wed) by jake</font>\n        <p>\n        The venerable <a\nhref=\"https://man7.org/linux/man-pages/man1/locate.1.html\"><tt>locate</tt></a>\nfile-finding utility has long been available for Linux systems, though its\norigins are in the BSD world.  It is a generally useful tool, but does have\na cost beyond just the disk space it occupies in the filesystem; there is a\nperiodic daemon (<a\nhref=\"https://man7.org/linux/man-pages/man1/updatedb.1.html\"><tt>updatedb</tt></a>)\nthat runs to keep the file-name database up to date. As a recent\ndebian-devel discussion shows, though, people have differing ideas of\njust how important the tool is—and whether it should be part of the default installation of Debian.\n\n        <p>\n        <a href=\"/Articles/846405/\">Full Story</a> (<a href=\"/Articles/846405/#Comments\">comments: 9</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] Malware in open-source web extensions</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Security] Posted Feb 16, 2021 20:45 UTC (Tue) by calumapplepie</font>\n        <p>\n        On February 4, millions of browser tabs were\nsuddenly terminated.  Not everyone was surprised;  the dozen people who spent the last\nfour months waiting for this tragedy to occur watched in relief as <a\nhref=\"https://github.com/greatsuspender/thegreatsuspender/issues/1175#issuecomment-773498592\">the\nfirst</a> in a rapid stream of <a\nhref=\"https://github.com/greatsuspender/thegreatsuspender/issues/1263#issuecomment-773499950\">GitHub\ncomments</a> began pouring in.  The Great Suspender, a Chrome\n extension that suspended inactive tabs,\nwith around two-million users, had been forcibly uninstalled because it contained\nmalware.  This was a serious problem for users, in part due to the difficulty in\nrecovering the lost tabs, but the extension's malevolence had been\npainfully obvious to anyone who cared to investigate it.\n\n        <p>\n        <a href=\"/Articles/846272/\">Full Story</a> (<a href=\"/Articles/846272/#Comments\">comments: 5</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] Development statistics for the 5.11 kernel</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 15, 2021 19:48 UTC (Mon) by corbet</font>\n        <p>\n        The 5.11 kernel was <a href=\"/Articles/846222/\">released</a> on February 14 — the most romantic\nsort of Valentine's day gift one could hope for.  This kernel saw the\nmerging of 14,340 changesets from 1,912 developers; it is certainly\nnot the busiest development cycle we have seen recently, but it still saw a\nlot of activity.  Read on for our traditional look at where the code merged\nfor 5.11 came from.\n\n        <p>\n        <a href=\"/Articles/845831/\">Full Story</a> (<a href=\"/Articles/845831/#Comments\">comments: none</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] Introducing maple trees</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 12, 2021 17:52 UTC (Fri) by mrybczyn</font>\n        <p>\n        Seen from outside, the internals of the Linux kernel appear to be stable,\nespecially in subsystems like the memory-management subsystem. However,\nfrom time to time, developers need to  replace an internal\ninterface to solve a longstanding problem. One such\nissue is contention on the lock used to protect essential\nmemory-management structures, including the page tables and virtual memory areas\n(VMAs). Liam Howlett and Matthew Wilcox have been developing a new\ndata structure, called a \"maple tree\", to replace the data structures\ncurrently used for VMAs. This potentially big change in internal kernel\nstructures has been recently <a\nhref=\"https://lwn.net/ml/linux-mm/20210112161240.2024684-1-Liam.Howlett@Oracle.com/#t\">posted</a>\nfor a review in a massive patch set.\n\n        <p>\n        <a href=\"/Articles/845507/\">Full Story</a> (<a href=\"/Articles/845507/#Comments\">comments: 22</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] kcmp() breaks loose</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 11, 2021 16:19 UTC (Thu) by corbet</font>\n        <p>\n        Given the large set of system calls implemented by the Linux kernel, it\nwould not be surprising for most people to be unfamiliar  with a few of\nthem.  Not everybody needs to know the details of\n<a href=\"https://man7.org/linux/man-pages/man2/setresuid.2.html\"><tt>setresgid()</tt></a>,\n<a href=\"https://man7.org/linux/man-pages/man2/modify_ldt.2.html\"><tt>modify_ldt()</tt></a>,\nor\n<a href=\"https://man7.org/linux/man-pages/man2/lookup_dcookie.2.html\"><tt>lookup_dcookie()</tt></a>,\nafter all.  But even developers who have a wide understanding of the Linux\nsystem-call set may be surprised by <a\nhref=\"https://man7.org/linux/man-pages/man2/kcmp.2.html\"><tt>kcmp()</tt></a>,\nwhich is not enabled by default in the kernel build.  It would seem,\nthough, that the word has gotten out, leading to an effort to make\n<tt>kcmp()</tt> more widely available.\n\n        <p>\n        <a href=\"/Articles/845448/\">Full Story</a> (<a href=\"/Articles/845448/#Comments\">comments: 13</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] LWN.net Weekly Edition for February 11, 2021</h2>\n        \n        <font size=\"-1\">Posted Feb 11, 2021 1:36 UTC (Thu)</font><p>\n        The LWN.net Weekly Edition for February 11, 2021 is available.\n<p>\n        <b>Inside this week's LWN.net Weekly Edition</b>\n        <ul>\n<li> <a href=\"/Articles/845091/\">Front</a>: Gemini; ioctl() for io_uring; Stable-kernel versions; Burstable bandwidth controller; Python, Rust, and Gentoo.\n            <li> <a href=\"/Articles/845093/\">Briefs</a>: Linux 5.8 security features; ktest; Python accepts pattern matching; Rust foundation; Quotes; ...\n            <li> <a href=\"/Articles/845094/\">Announcements</a>: Newsletters; conferences; security updates; kernel patches; ...\n            </ul>\n<a href=\"/Articles/845091/\">Read more</a>\n<p>\n\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] Python cryptography, Rust, and Gentoo</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Distributions] Posted Feb 10, 2021 23:33 UTC (Wed) by jake</font>\n        <p>\n        There is always a certain amount of tension between the goals of those\nusing older, less-popular architectures and the goals of projects targeting\nmore mainstream users and systems.  In many ways, our community has been\nspoiled by the number of architectures supported by GCC, but a lot of new\nsoftware is not being written in C—and existing software is migrating away\nfrom it. \nThe Rust language is\noften the choice these days for both new and existing code bases, but it is\nbuilt with LLVM, which supports fewer architectures than GCC\nsupports—and Linux runs on.  So the question that arises is how much these older, non-Rusty\narchitectures should be able to hold back future development; the answer,\nin several places now, has been \"not much\".\n\n        <p>\n        <a href=\"/Articles/845535/\">Full Story</a> (<a href=\"/Articles/845535/#Comments\">comments: 247</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] Visiting another world</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Front] Posted Feb 10, 2021 17:11 UTC (Wed) by jake</font>\n        <p>\n        The world wide web is truly a wondrous invention, but it is not without\nflaws.  There are massive privacy woes that stem from its standards and\nimplementation; it is also so fiendishly complex that few can truly grok\nall of its expanse.  That complexity affords enormous flexibility, for good\nor ill.\nThose who are looking for a simpler way to exchange\ninformation—or hearken back to web prehistory—may find the <a\nhref=\"https://gemini.circumlunar.space/\">Gemini project</a> worth a look.\n\n        <p>\n        <a href=\"/Articles/845446/\">Full Story</a> (<a href=\"/Articles/845446/#Comments\">comments: 10</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] The burstable CFS bandwidth controller</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 8, 2021 17:02 UTC (Mon) by corbet</font>\n        <p>\n        The kernel's CFS bandwidth controller is an effective way of controlling\njust how much CPU time is available to each control group.  It can keep\nprocesses from consuming too much CPU time and ensure that adequate time is\navailable for all processes that need it.  That said, it's not entirely\nsurprising that \nthe bandwidth controller is not perfect for every workload out there.  <a\nhref=\"/ml/linux-kernel/20210202114038.64870-1-changhuaixin@linux.alibaba.com/\">This\npatch set</a> from Huaixin Chang aims to make it work better for bursty,\nlatency-sensitive workloads.\n\n        <p>\n        <a href=\"/Articles/844976/\">Full Story</a> (<a href=\"/Articles/844976/#Comments\">comments: 3</a>)\n<p>\n</div>\n<h2 class=\"Headline\">[<font class=\"Subscription\">$</font>] The imminent stable-version apocalypse</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 5, 2021 15:14 UTC (Fri) by corbet</font>\n        <p>\n        As has often been pointed out, the stable-kernel releases are meant to be\nstable; that means they should be even more averse to ABI breaks than\nmainline releases, if that is possible.  This may be a hard promise to keep\nfor the next set of stable kernels, though, for the most mundane of\nreasons: nobody thought that there would be more than 255 minor updates to\nany given kernel release.\n\n        <p>\n        <a href=\"/Articles/845120/\">Full Story</a> (<a href=\"/Articles/845120/#Comments\">comments: 29</a>)\n<p>\n</div>\n</div>\n<div class=\"FPRight\">\n<h2 class=\"Headline\">Another pair of stable kernels</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 17, 2021 15:18 UTC (Wed) by corbet</font>\n        <p>\n        The\n<a href=\"/Articles/846483/\">5.10.17</a> and\n<a href=\"/Articles/846484/\">5.4.99</a>\nstable kernel updates have been released; they both contain another set of\nimportant fixes.\n        <p>\n        <a href=\"/Articles/846482/\">Comments (none posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">Security updates for Wednesday</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Security] Posted Feb 17, 2021 14:53 UTC (Wed) by corbet</font>\n        <p>\n        Security updates have been issued by <b>Debian</b> (openssl and ruby-mechanize), <b>Fedora</b> (chromium, jasper, roundcubemail, spice-vdagent, and webkit2gtk3), <b>openSUSE</b> (python-bottle), <b>Oracle</b> (dotnet, kernel, and kernel-container), <b>Red Hat</b> (redhat-ds:11, RHDM, and RHPAM), <b>SUSE</b> (jasper, kernel, and screen), and <b>Ubuntu</b> (thunderbird and wpa).\n\n        <p>\n        <a href=\"/Articles/846476/\">Full Story</a> (<a href=\"/Articles/846476/#Comments\">comments: none</a>)\n<p>\n</div>\n<h2 class=\"Headline\">Go 1.16 released</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Development] Posted Feb 17, 2021 14:30 UTC (Wed) by corbet</font>\n        <p>\n        <a href=\"https://blog.golang.org/go1.16\">Version 1.16</a> of the Go\nlanguage is available.  New features include an <a\nhref=\"https://golang.org/pkg/embed/\">\"embed\" package</a>, Apple Arm64\nsupport, use of modules by default, and build-performance improvements; see\n<a href=\"https://golang.org/doc/go1.16\">the release notes</a> for details.\n        <p>\n        <a href=\"/Articles/846445/\">Comments (1 posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">5.12 Merge window delayed</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 16, 2021 20:41 UTC (Tue) by corbet</font>\n        <p>\n        Those of us who are watching the mainline kernel repository may have been\nwondering why it appears that no pull requests for the 5.12 merge window\nhave yet been acted upon.  The problem, it seems, is power outages caused\nby the severe winter weather in the US Pacific northwest.  Until that gets\nresolved, which could take a few days, the 5.12 merge window is likely to\nremain on hold.\n        <p>\n        <a href=\"/Articles/846406/\">Comments (none posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">Security updates for Tuesday</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Security] Posted Feb 16, 2021 16:17 UTC (Tue) by ris</font>\n        <p>\n        Security updates have been issued by <b>Debian</b> (spip), <b>Mageia</b> (chromium-browser, kernel, kernel-linus, and trojita), <b>openSUSE</b> (mumble and opera), <b>Red Hat</b> (container-tools:rhel8, java-1.8.0-ibm, kernel, kernel-rt, net-snmp, nodejs:10, nodejs:12, nodejs:14, nss, perl, python, and rh-nodejs10-nodejs), and <b>SUSE</b> (jasper, python-bottle, and python-urllib3).\n\n        <p>\n        <a href=\"/Articles/846395/\">Full Story</a> (<a href=\"/Articles/846395/#Comments\">comments: none</a>)\n<p>\n</div>\n<h2 class=\"Headline\">Security updates for Monday</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Security] Posted Feb 15, 2021 15:37 UTC (Mon) by ris</font>\n        <p>\n        Security updates have been issued by <b>Debian</b> (busybox, linux-4.19, openvswitch, subversion, unbound1.9, and xterm), <b>Fedora</b> (audacity, community-mysql, kernel, libzypp, mysql-connector-odbc, python-django, python3.10, and zypper), <b>openSUSE</b> (librepo, openvswitch, subversion, and wpa_supplicant), <b>Red Hat</b> (subversion:1.10), <b>SUSE</b> (kernel, openvswitch, perl-File-Path, and wpa_supplicant), and <b>Ubuntu</b> (postgresql-12).\n\n        <p>\n        <a href=\"/Articles/846318/\">Full Story</a> (<a href=\"/Articles/846318/#Comments\">comments: none</a>)\n<p>\n</div>\n<h2 class=\"Headline\">The 5.11 kernel is out</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 14, 2021 22:57 UTC (Sun) by corbet</font>\n        <p>\n        Linus has <a href=\"/Articles/846222/\">released</a> the 5.11 kernel, as\nexpected.  \"<span>I know it's Valentine's Day here in the\nUS - maybe give this release a good testing before you go back and\nplay with development kernels. All right? Because I'm sure your SO\nwill understand.</span>\"\n\nHeadline features in 5.11 include\n<a href=\"/Articles/786487/\">Intel SGX support</a>,\na new <a href=\"/Articles/826313/\">system-call interception mechanism</a>,\nthe <tt>seccomp()</tt> <a  href=\"/Articles/834785/\">constant-action\nbitmap</a> optimization,\nthe internal <a href=\"/Articles/836144/\"><tt>kmap_local()</tt> API</a>,\nthe <a href=\"/Articles/837816/\"><tt>epoll_pwait2()</tt></a> system call,\nand much more.\nSee the LWN merge-window articles\n(<a href=\"/Articles/840129/\">part&nbsp;1</a>,\n<a href=\"/Articles/841062/\">part&nbsp;2</a>) and the  (under development) <a\nhref=\"https://kernelnewbies.org/Linux_5.11\">KernelNewbies 5.11 page</a> for\nmore information.\n        <p>\n        <a href=\"/Articles/846113/#Comments\">Comments (15 posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">Saturday stable kernels</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Kernel] Posted Feb 13, 2021 16:25 UTC (Sat) by corbet</font>\n        <p>\n        The\n<a href=\"/Articles/846116/\">5.10.16</a>,\n<a href=\"/Articles/846117/\">5.4.98</a>,\nand <a href=\"/Articles/846118/\">4.19.176</a>\nstable kernel updates have been released; each contains another set of\nimportant fixes.\n        <p>\n        <a href=\"/Articles/846115/\">Comments (4 posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">Gentoo mourns the loss of Kent Fredric</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Briefs] Posted Feb 12, 2021 22:23 UTC (Fri) by ris</font>\n        <p>\n        A <a\nhref=\"https://www.gentoo.org/news/2021/02/12/in-memory-of-kent-kentnl-fredric.html\">brief\npost</a> on the Gentoo site is in memory of Kent \"kent\\n\" Frederic.\n\"<span>Kent was an active member of the Gentoo community for many years. He tirelessly managed Gentoo’s Perl support, and was active in the Rust project as well as in many other corners. We all remember him as an enthusiastic, bright person, with lots of eye for detail and constant willingness to help out and improve things. On behalf of the world-wide Gentoo community, our heartfelt condolences go out to his family and friends.</span>\"\n        <p>\n        <a href=\"/Articles/846054/\">Comments (5 posted)</a>\n<p>\n</div>\n<h2 class=\"Headline\">Security updates for Friday</h2>\n        \n        <div class=\"BlurbListing\">\n        <font size=\"-1\">[Security] Posted Feb 12, 2021 15:05 UTC (Fri) by jake</font>\n        <p>\n        Security updates have been issued by <b>Arch Linux</b> (ansible, chromium, cups, docker, firefox, gitlab, glibc, helm, lib32-glibc, minio, nextcloud, opendoas, opera, php, php7, privoxy, python-django, python-jinja, python2-jinja, thunderbird, vivaldi, and wireshark-cli), <b>Fedora</b> (jasper, linux-firmware, php, python-cryptography, spice-vdagent, subversion, and thunderbird), <b>Mageia</b> (gssproxy and phpldapadmin), <b>openSUSE</b> (chromium, containerd, docker, docker-runc,, librepo, nextcloud, and privoxy), <b>SUSE</b> (containerd, docker, docker-runc, golang-github-docker-libnetwork, kernel, openvswitch, and wpa_supplicant), and <b>Ubuntu</b> (wpa).\n\n        <p>\n        <a href=\"/Articles/845999/\">Full Story</a> (<a href=\"/Articles/845999/#Comments\">comments: none</a>)\n<p>\n</div>\n</div>\n       </div>\n       <p><a href=\"/Articles/?offset=10\">--&gt; More news items</a>\n       \n</div> <!-- ArticleText -->\n</div>\n<div class=\"lwn-u-1 pure-u-md-1-6 not-print\">\n<div id=\"azk93271_right_zone\"></div>\n</div>\n</div> <!-- pure-grid -->\n\n        <br clear=\"all\">\n        <center>\n        <P>\n        <font size=\"-2\">\n        Copyright &copy; 2021, Eklektix, Inc.<BR>\n        \n        Comments and public postings are copyrighted by their creators.<br>\n        Linux  is a registered trademark of Linus Torvalds<br>\n        </font>\n        </center>\n        \n            <script data-goatcounter=\"https://gc.lwn.net/count\"\n                    async src=\"https://gc.lwn.net/count.js\"></script>\n            \n        </body></html>\n        "
+          },
+          "redirectURL": "",
+          "headersSize": 305,
+          "bodySize": 8147
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 174,
+          "dns": 0,
+          "connect": 84,
+          "ssl": 88,
+          "send": 0,
+          "wait": 99,
+          "receive": 6
+        },
+        "time": 451,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:3c03::f03c:91ff:fe82:68b2",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:01.835-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://gc.lwn.net/count.js",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "gc.lwn.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://lwn.net/"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=86400"
+            },
+            {
+              "name": "content-type",
+              "value": "text/javascript; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 17 Feb 2021 23:16:05 GMT"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/javascript; charset=utf-8",
+            "size": 7794,
+            "text": "// GoatCounter: https://www.goatcounter.com\n// This file (and *only* this file) is released under the ISC license:\n// https://opensource.org/licenses/ISC\n(function() {\n\t'use strict';\n\n\tif (window.goatcounter && window.goatcounter.vars)  // Compatibility\n\t\twindow.goatcounter = window.goatcounter.vars\n\telse\n\t\twindow.goatcounter = window.goatcounter || {}\n\n\t// Get all data we're going to send off to the counter endpoint.\n\tvar get_data = function(vars) {\n\t\tvar data = {\n\t\t\tp: (vars.path     === undefined ? goatcounter.path     : vars.path),\n\t\t\tr: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),\n\t\t\tt: (vars.title    === undefined ? goatcounter.title    : vars.title),\n\t\t\te: !!(vars.event || goatcounter.event),\n\t\t\ts: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],\n\t\t\tb: is_bot(),\n\t\t\tq: location.search,\n\t\t}\n\n\t\tvar rcb, pcb, tcb  // Save callbacks to apply later.\n\t\tif (typeof(data.r) === 'function') rcb = data.r\n\t\tif (typeof(data.t) === 'function') tcb = data.t\n\t\tif (typeof(data.p) === 'function') pcb = data.p\n\n\t\tif (is_empty(data.r)) data.r = document.referrer\n\t\tif (is_empty(data.t)) data.t = document.title\n\t\tif (is_empty(data.p)) data.p = get_path()\n\n\t\tif (rcb) data.r = rcb(data.r)\n\t\tif (tcb) data.t = tcb(data.t)\n\t\tif (pcb) data.p = pcb(data.p)\n\t\treturn data\n\t}\n\n\t// Check if a value is \"empty\" for the purpose of get_data().\n\tvar is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }\n\n\t// See if this looks like a bot; there is some additional filtering on the\n\t// backend, but these properties can't be fetched from there.\n\tvar is_bot = function() {\n\t\t// Headless browsers are probably a bot.\n\t\tvar w = window, d = document\n\t\tif (w.callPhantom || w._phantom || w.phantom)\n\t\t\treturn 150\n\t\tif (w.__nightmare)\n\t\t\treturn 151\n\t\tif (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)\n\t\t\treturn 152\n\t\tif (navigator.webdriver)\n\t\t\treturn 153\n\t\treturn 0\n\t}\n\n\t// Object to urlencoded string, starting with a ?.\n\tvar urlencode = function(obj) {\n\t\tvar p = []\n\t\tfor (var k in obj)\n\t\t\tif (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)\n\t\t\t\tp.push(encodeURIComponent(k) + '=' + encodeURIComponent(obj[k]))\n\t\treturn '?' + p.join('&')\n\t}\n\n\t// Show a warning in the console.\n\tvar warn = function(msg) {\n\t\tif (console && 'warn' in console)\n\t\t\tconsole.warn('goatcounter: ' + msg)\n\t}\n\n\t// Get the endpoint to send requests to.\n\tvar get_endpoint = function() {\n\t\tvar s = document.querySelector('script[data-goatcounter]');\n\t\tif (s && s.dataset.goatcounter)\n\t\t\treturn s.dataset.goatcounter\n\t\treturn (goatcounter.endpoint || window.counter)  // counter is for compat; don't use.\n\t}\n\n\t// Get current path.\n\tvar get_path = function() {\n\t\tvar loc = location,\n\t\t\tc = document.querySelector('link[rel=\"canonical\"][href]')\n\t\tif (c) {  // May be relative or point to different domain.\n\t\t\tvar a = document.createElement('a')\n\t\t\ta.href = c.href\n\t\t\tif (a.hostname.replace(/^www\\./, '') === location.hostname.replace(/^www\\./, ''))\n\t\t\t\tloc = a\n\t\t}\n\t\treturn (loc.pathname + loc.search) || '/'\n\t}\n\n\t// Filter some requests that we (probably) don't want to count.\n\tgoatcounter.filter = function() {\n\t\tif ('visibilityState' in document && (document.visibilityState === 'prerender' || document.visibilityState === 'hidden'))\n\t\t\treturn 'visibilityState'\n\t\tif (!goatcounter.allow_frame && location !== parent.location)\n\t\t\treturn 'frame'\n\t\tif (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\\.|^10\\.|^172\\.(1[6-9]|2[0-9]|3[0-1])\\.|^192\\.168\\.)/))\n\t\t\treturn 'localhost'\n\t\tif (!goatcounter.allow_local && location.protocol === 'file:')\n\t\t\treturn 'localfile'\n\t\tif (localStorage && localStorage.getItem('skipgc') === 't')\n\t\t\treturn 'disabled with #toggle-goatcounter'\n\t\treturn false\n\t}\n\n\t// Get URL to send to GoatCounter.\n\twindow.goatcounter.url = function(vars) {\n\t\tvar data = get_data(vars || {})\n\t\tif (data.p === null)  // null from user callback.\n\t\t\treturn\n\t\tdata.rnd = Math.random().toString(36).substr(2, 5)  // Browsers don't always listen to Cache-Control.\n\n\t\tvar endpoint = get_endpoint()\n\t\tif (!endpoint)\n\t\t\treturn warn('no endpoint found')\n\n\t\treturn endpoint + urlencode(data)\n\t}\n\n\t// Count a hit.\n\twindow.goatcounter.count = function(vars) {\n\t\tvar f = goatcounter.filter()\n\t\tif (f)\n\t\t\treturn warn('not counting because of: ' + f)\n\n\t\tvar url = goatcounter.url(vars)\n\t\tif (!url)\n\t\t\treturn warn('not counting because path callback returned null')\n\n\t\tvar img = document.createElement('img')\n\t\timg.src = url\n\t\timg.style.position = 'absolute'  // Affect layout less.\n\t\timg.setAttribute('alt', '')\n\t\timg.setAttribute('aria-hidden', 'true')\n\n\t\tvar rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }\n\t\tsetTimeout(rm, 3000)  // In case the onload isn't triggered.\n\t\timg.addEventListener('load', rm, false)\n\t\tdocument.body.appendChild(img)\n\t}\n\n\t// Get a query parameter.\n\twindow.goatcounter.get_query = function(name) {\n\t\tvar s = location.search.substr(1).split('&')\n\t\tfor (var i = 0; i < s.length; i++)\n\t\t\tif (s[i].toLowerCase().indexOf(name.toLowerCase() + '=') === 0)\n\t\t\t\treturn s[i].substr(name.length + 1)\n\t}\n\n\t// Track click events.\n\twindow.goatcounter.bind_events = function() {\n\t\tif (!document.querySelectorAll)  // Just in case someone uses an ancient browser.\n\t\t\treturn\n\n\t\tvar send = function(elem) {\n\t\t\treturn function() {\n\t\t\t\tgoatcounter.count({\n\t\t\t\t\tevent:    true,\n\t\t\t\t\tpath:     (elem.dataset.goatcounterClick || elem.name || elem.id || ''),\n\t\t\t\t\ttitle:    (elem.dataset.goatcounterTitle || elem.title || (elem.innerHTML || '').substr(0, 200) || ''),\n\t\t\t\t\treferrer: (elem.dataset.goatcounterReferrer || elem.dataset.goatcounterReferral || ''),\n\t\t\t\t})\n\t\t\t}\n\t\t}\n\n\t\tArray.prototype.slice.call(document.querySelectorAll(\"*[data-goatcounter-click]\")).forEach(function(elem) {\n\t\t\tif (elem.dataset.goatcounterBound)\n\t\t\t\treturn\n\t\t\tvar f = send(elem)\n\t\t\telem.addEventListener('click', f, false)\n\t\t\telem.addEventListener('auxclick', f, false)  // Middle click.\n\t\t\telem.dataset.goatcounterBound = 'true'\n\t\t})\n\t}\n\n\t// Add a \"visitor counter\" frame or image.\n\twindow.goatcounter.visit_count = function(opt) {\n\t\topt        = opt        || {}\n\t\topt.type   = opt.type   || 'html'\n\t\topt.append = opt.append || 'body'\n\t\topt.path   = opt.path   || get_path()\n\t\topt.attr   = opt.attr   || {width: '200', height: (opt.no_branding ? '60' : '80')}\n\n\t\topt.attr['src'] = get_endpoint() + 'er/' + encodeURIComponent(opt.path) + '.' + opt.type + '?'\n\t\tif (opt.no_branding) opt.attr['src'] += '&no_branding=1'\n\t\tif (opt.style)       opt.attr['src'] += '&style=' + encodeURIComponent(opt.style)\n\n\t\tvar tag = {png: 'img', svg: 'img', html: 'iframe'}[opt.type]\n\t\tif (!tag)\n\t\t\treturn warn('visit_count: unknown type: ' + opt.type)\n\n\t\tif (opt.type === 'html') {\n\t\t\topt.attr['frameborder'] = '0'\n\t\t\topt.attr['scrolling']   = 'no'\n\t\t}\n\n\t\tvar d = document.createElement(tag)\n\t\tfor (var k in opt.attr)\n\t\t\td.setAttribute(k, opt.attr[k])\n\n\t\tvar p = document.querySelector(opt.append)\n\t\tif (!p)\n\t\t\treturn warn('visit_count: append not found: ' + opt.append)\n\t\tp.appendChild(d)\n\t}\n\n\t// Make it easy to skip your own views.\n\tif (location.hash === '#toggle-goatcounter')\n\t\tif (localStorage.getItem('skipgc') === 't') {\n\t\t\tlocalStorage.removeItem('skipgc', 't')\n\t\t\talert('GoatCounter tracking is now ENABLED in this browser.')\n\t\t}\n\t\telse {\n\t\t\tlocalStorage.setItem('skipgc', 't')\n\t\t\talert('GoatCounter tracking is now DISABLED in this browser until ' + location + ' is loaded again.')\n\t\t}\n\n\tif (!goatcounter.no_onload) {\n\t\tvar go = function() {\n\t\t\tgoatcounter.count()\n\t\t\tif (!goatcounter.no_events)\n\t\t\t\tgoatcounter.bind_events()\n\t\t}\n\n\t\tif (document.body === null)\n\t\t\tdocument.addEventListener('DOMContentLoaded', function() { go() }, false)\n\t\telse\n\t\t\tgo()\n\t}\n})();\n"
+          },
+          "redirectURL": "",
+          "headersSize": 0,
+          "bodySize": 7794
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "ssl": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 0,
+          "receive": 0
+        },
+        "time": 0,
+        "_securityState": "secure"
+      },
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:01.837-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://engine.adzerk.net/ados.js",
+          "httpVersion": "",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "engine.adzerk.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Referer",
+              "value": "https://lwn.net/"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 0,
+          "statusText": "",
+          "httpVersion": "",
+          "headers": [],
+          "cookies": [],
+          "content": {},
+          "redirectURL": "",
+          "bodySize": -1
+        },
+        "cache": {},
+        "timings": {},
+        "time": 0
+      },
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:01.849-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://gc.lwn.net/count?p=%2F&t=Welcome%20to%20LWN.net%20%5BLWN.net%5D&s=1536%2C864%2C1.25&b=0&rnd=qztgh",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "gc.lwn.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://lwn.net/"
+            }
+          ],
+          "cookies": [],
+          "queryString": [
+            {
+              "name": "p",
+              "value": "/"
+            },
+            {
+              "name": "t",
+              "value": "Welcome to LWN.net [LWN.net]"
+            },
+            {
+              "name": "s",
+              "value": "1536,864,1.25"
+            },
+            {
+              "name": "b",
+              "value": "0"
+            },
+            {
+              "name": "rnd",
+              "value": "qztgh"
+            }
+          ],
+          "headersSize": 366
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-store,no-cache"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "deny"
+            },
+            {
+              "name": "x-rate-limit-limit",
+              "value": "4"
+            },
+            {
+              "name": "x-rate-limit-remaining",
+              "value": "3"
+            },
+            {
+              "name": "x-rate-limit-reset",
+              "value": "1"
+            },
+            {
+              "name": "content-length",
+              "value": "43"
+            },
+            {
+              "name": "date",
+              "value": "Wed, 17 Feb 2021 23:16:20 GMT"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "image/gif",
+            "size": 43,
+            "encoding": "base64",
+            "text": "R0lGODlhAQABAIABAAAAAP///yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          },
+          "redirectURL": "",
+          "headersSize": 358,
+          "bodySize": 401
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 108,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 62,
+          "send": 0,
+          "wait": 60,
+          "receive": 2
+        },
+        "time": 232,
+        "_securityState": "secure",
+        "serverIPAddress": "2600:3c00::f03c:92ff:fe97:8065",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:01.951-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://lwn.net/images/favicon.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "lwn.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://lwn.net/"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 23:15:57 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips"
+            },
+            {
+              "name": "Location",
+              "value": "https://static.lwn.net/images/favicon.png"
+            },
+            {
+              "name": "Content-Length",
+              "value": "225"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=5, max=97"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=iso-8859-1"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "image/png",
+            "size": 2011,
+            "encoding": "base64",
+            "text": "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"
+          },
+          "redirectURL": "https://static.lwn.net/images/favicon.png",
+          "headersSize": 0,
+          "bodySize": 2011
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "ssl": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 0,
+          "receive": 0
+        },
+        "time": 0,
+        "_securityState": "secure"
+      },
+      {
+        "pageref": "page_2",
+        "startedDateTime": "2021-02-17T15:17:02.045-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://static.lwn.net/images/favicon.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "static.lwn.net"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Referer",
+              "value": "https://lwn.net/"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 23:15:57 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 29 Dec 2010 16:36:46 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "\"7db-4988f2cc9a380\""
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2011"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=5, max=99"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "image/png",
+            "size": 2011,
+            "encoding": "base64",
+            "text": "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"
+          },
+          "redirectURL": "",
+          "headersSize": 0,
+          "bodySize": 2011
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "ssl": 0,
+          "connect": 0,
+          "send": 0,
+          "wait": 0,
+          "receive": 0
+        },
+        "time": 0,
+        "_securityState": "secure"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+Sean Blanchard
+2/17/2021
+COMP429 – lab 03
+
+Task 3: HAR qanda
+
+
+1. What is the file format of a HAR?
+
+It is a JSON-formatted archive file format, for logging of a web browser’s interaction with a site. The extension of these files is a .har.
+
+2. What is the difference between timings and pageTimings?
+
+pageTimings[object] – Detailed timing info about page load.
+timings[object] – Detailed timing info about request/response round trip.
+The difference between the two is that pageTimings does timing information for the whole page loaded, whereas the timings does timing info about request. responses.
+
+3. Looking at timings, what are the categories and what do they mean?
+
+Timings has 8 different categories that it displays,
+1. blocked : Time spent in a queue waiting for a network connection
+2. dns : DNS resolution time, IE the time required to resolve a host name.
+3. connect : Time required to create TCP connection
+4. send : Tiume required to send HTTP requests to the server
+5. wait : Waiting for a response from the server
+6. receive : Time required to read entire response from the server or cache
+7. ssl : Time required for SSL/TLS negotiation.
+8. Comment : A comment provided by the user or the application
+
+4. pageTimings will be useful for analysis, where in the JSON object can it be found?
+
+pageTimings can be very useful for analysis because it describes timings for various events or states fired during the page load. It shows content of the page loaded and also how long it took to actually load the page.
+
+5. Take the time to examine one of your HAR files. We’ll be writing some code to analyze these files next week.
+
