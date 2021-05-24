@@ -1,0 +1,67 @@
+L07: UDP
+Due Friday Apr 9
+qanda
+Use this UDP Printout (Links to an external site.) to answer the following questions:
+1. The Ethernet header is 14 bytes, the IP header is 20 bytes, circle the first byte of the UDP header.
+2. Identify each field of the UDP header with a different highlight color matching in both the packet details and the packet bytes.
+3. Draw a square around the protocol number in the IP header for UDP. What is the decimal value? 
+17
+
+
+Complete the 13 questions (Links to an external site.) with this interactive website.
+1. Submit the answers in a text file (they are case insensitive).
+
+1. 
+QUESTION 1 OF 13
+At time t=0, what is the sender state?
+wait for ACK 0
+2. 
+QUESTION 2 OF 13
+At time t=0, what is the receiver state?
+wait for 0 from below
+3. 
+QUESTION 3 OF 13
+At time t=0, what is the sequence/ack # of the packet?
+0
+4. 
+QUESTION 4 OF 13
+At time t=1, what is the sender state?
+Wait for ACK 0
+
+5. 
+QUESTION 5 OF 13
+At time t=1, what is the receiver state?
+Wait for 1 from below
+6. 
+QUESTION 6 OF 13
+At time t=1, what is the sequence/ack # of the packet?
+0
+7. 
+QUESTION 7 OF 13
+At time t=2, what is the sender state?
+Wait for ACK 0
+8. 
+QUESTION 8 OF 13
+At time t=2, what is the receiver state?
+Wait for 1 from below
+9. 
+QUESTION 9 OF 13
+At time t=2, what is the sequence/ack # of the packet?
+0
+10. 
+QUESTION 10 OF 13
+At time t=3, what is the sender state?
+Wait for ACK 0
+11. 
+QUESTION 11 OF 13
+At time t=3, what is the receiver state?
+Wait for 1 from below
+12. 
+QUESTION 12 OF 13
+At time t=3, what is the sequence/ack # of the packet?
+0
+13. 
+QUESTION 13 OF 13
+How many times is the payload of the received packet passed up to the higher layer?
+1
+
